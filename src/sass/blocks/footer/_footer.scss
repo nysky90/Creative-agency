@@ -1,0 +1,70 @@
+.footer {
+    margin-top: 150px;
+    background: #1E2833;
+    padding: 60px 0 120px 0;
+    &__wrapper {
+        display: grid;
+        
+        
+    }
+    &__item {
+        a {
+            color: #FFF;
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 22px;
+            &:hover {
+                color: #FEC83D;
+                text-decoration: none;
+            }
+        }
+    }
+    &__discr {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 29px;
+        color: #FFF;
+    }
+    &__btn {
+        margin-top: 20px;
+        width: 165px;
+        height: 50px;
+        background: #FEC83D;
+        border-radius: 8px;
+        color: #5E4DCD;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    &__info {
+        grid-column: 1/5;
+        display: grid;
+        grid-template-columns: 180px 120px 530px 300px;
+    }
+    &__social {
+        width: 150px;
+        display: flex;
+        justify-content: space-between;
+        grid-column: 4/5;
+    }
+    &__term, &__police {
+        
+        a {
+            text-decoration: none;
+            color:#FFF;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 22px;
+            text-align: right;
+            &:hover {
+                color: #FEC83D;
+                text-decoration: none;
+            }
+        }
+    }
+    &__menu {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

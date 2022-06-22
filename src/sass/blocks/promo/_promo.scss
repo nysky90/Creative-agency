@@ -1,0 +1,65 @@
+.promo {
+    position: relative;
+    padding-bottom: 50px;
+    min-height: 100vh;
+    background: url('../../../img/bg_1.jpg') center center/cover no-repeat;
+    &__logo {
+        position: relative;
+        z-index: 3;
+        padding: 164px 0 0 90px;
+    }
+    &__ruby {
+        position: relative;
+        &-1 {
+            position: absolute;
+            width: 570px;
+            height: 570px;
+            background: rgba(255, 255, 255, 0.93);
+            border-radius: 38px;
+            transform: rotate(135deg);
+            top: -50px;
+            left: 7%;
+            z-index: 2;
+        }  
+        &-2 {
+        position: absolute;
+        width: 709px;
+        height: 709px;
+        background: rgba(255, 255, 255, 0.93);
+        transform: rotate(-45deg);
+        z-index: 1;
+        top: -355px;
+        left: 1%;
+        }
+    }
+    &__discr {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 226px;
+        width: 653px;
+        height: 372px;
+        background: rgba(0, 0, 0, 0.89);
+        border-radius: 39px;
+        color: #FFFFFF;
+        margin-left: 50%;
+        padding:30px 27px 0 0; 
+        h1 {
+            font-weight: 700;
+            font-size: 45px;
+            line-height: 62px;
+            text-align: right;
+            text-transform: uppercase;
+        }
+        &-text {
+            width: 100%;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 40px;
+            text-align: right;
+            text-transform: uppercase;
+        }
+    }
+   
+}

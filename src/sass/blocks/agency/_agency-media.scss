@@ -1,0 +1,35 @@
+@media (max-width: 1200px) {
+    .agency {
+        &__wrapper {
+            grid-template-columns: 490px auto;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .agency {
+        &__wrapper {
+            grid-template-columns: 540px;
+            justify-content: center;
+        }
+        &__img {
+            display: none;
+        }
+    }
+}
+
+
+@media (max-width: 575px) {
+    .agency {
+        &__wrapper {
+            grid-template-columns: 320px;
+            justify-content: center;
+        }
+        &__item {
+            grid-template: 35px 12px/260px 40px;
+        }
+        &__info {
+            grid-template-rows: 200px 128px 344px;
+        }
+    }
+}

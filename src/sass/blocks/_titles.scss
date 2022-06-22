@@ -1,0 +1,21 @@
+.title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 38px;
+    &_s20 {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 36px;
+        text-align: left;
+    }
+}
+.divider {
+    position: relative;
+    width: 473px;
+    height: 0px;
+    border: 1px solid #FEC83D;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 40px;
+}

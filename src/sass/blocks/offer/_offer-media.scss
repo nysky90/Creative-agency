@@ -1,0 +1,11 @@
+@media (max-width: 575px) {
+    .offer {
+        &__wrapper {
+            grid-template-columns: repeat(auto-fit,310px);
+        }
+    }
+    .divider {
+        width: 300px;
+    }
+
+}
